@@ -1,0 +1,181 @@
+body {
+  font-family: Roboto, sans-serif;
+}
+
+.section-one {
+  display: flex;
+  flex-direction: column;
+  height: 70vh;
+  background-color: #1F2937;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: center;
+  width: 70%;
+  padding: 16px 0;
+
+  h1 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+  }
+
+  ul {
+    display: flex;
+    gap: 16px;
+
+    li {
+      color: #E5E7EB;
+    }
+  }
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.main-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.right {
+  flex-shrink: 0;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+
+  h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+  }
+
+  p {
+    font-size: 18px;
+    color: #E5E7EB;
+  }
+}
+
+.left div button {
+  border: none;
+  color: #fff;
+  background-color: #3B82F6;
+  padding: 6px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.section-two {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.section-two > p {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: bold;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.item {
+  width: 200px;
+
+  p {
+    color: #1f2937c0;
+  }
+
+  img {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    border: 2px solid #3B82F6;
+  }
+}
+
+.section-three {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+}
+
+.quote {
+  width: 60%;
+}
+
+.quote-main {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.right-text {
+  font-weight: bold;
+  text-align: right;
+}
+
+.section-four {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-four > div {
+  display: flex;
+  gap: 50px;
+  padding: 15px 40px;
+  background-color: #3B82F6;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.section-four > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-four-text {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-btn {
+  border: 2px solid #fff;
+  color: #fff;
+  background-color: transparent;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+footer {
+  padding: 20px;
+  background-color: #1F2937;
+  color: #fff;
+  text-align: center;
+}
